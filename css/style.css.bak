@@ -296,7 +296,9 @@ p{
 #types .overlay h2:before{
 	left:106px;
 }
-#types .overlay h2:after{}
+#types .overlay h2:after{
+	left:130px;
+}
 
 #types table{
 	border-spacing: 8px;

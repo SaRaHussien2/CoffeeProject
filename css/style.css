@@ -304,21 +304,18 @@ p{
 	border-spacing: 8px;
 	display: flex;
     justify-content: center;
-
 }
-#types table tr {}
+
 #types table tr td {
 	width:350px;
 	height:250px;
 	overflow:hidden;
-
 }
 #types table tr td:hover img{
 	-webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
-
 }
 #types table tr td img {
 	max-width:100%;
