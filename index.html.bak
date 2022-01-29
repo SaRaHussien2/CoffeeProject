@@ -1,6 +1,12 @@
 <html>
 	<head>
 		<title>Coffee</title>
+		
+		  <!-- Favicons -->
+  <link href="images/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+
 		<!-- Render Elements Normaly in All Browsers -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<!-- Font Awesome Library -->
@@ -24,9 +30,9 @@
 			  <i class="fas fa-bars toggle-menu"></i>
 			  <ul>
 				<li><a class="active" href="#">Home</a></li>
-				<li><a href="#">About</a></li>
 				<li><a href="#">Products</a></li>
 				<li><a href="#">Blogs</a></li>
+				<li><a href="#">History</a></li>
 				<li><a href="#">Review</a></li>
 				<li><a href="#">Contact</a></li>
 				<li><a href="#">Login</a></li>
@@ -41,25 +47,42 @@
 		
 		<!-- Start Main Body -->
 			<div class="home">
+				 <!-- Start Welcome -->
 				<div class="welcome">
+						<img src="./images/home/home.jpg" alt="About Us Image">
+
 					<div class="overlay">
 						<p>Welcome in your favourite place</p>
 					</div>
 				</div>
+				<!--End  Welcome -->
+				
+				<!--Start About-->
 				<div class="about">
-					 <h2>About Us</h2>
-					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e</p>
+					<div class="container">
+						<div class="info-box">
+							<h2>About Us</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
+						</div>
+						<div class="image-box">
+							<img src="./images/home/about.jpg" alt="About Us Image">
+						</div>
+					</div>
+
 				</div>
+				<!--End About -->
+				
+			</div>
+
+				<!--Start -->
+				
+				<!--End About-->
+
 			
-			</div>
-		 <!--End Main Body -->
+		 <!-- Start Footer -->
 			<div class="footer">
-				<div>
-					<p>All Copy Right Reserved</p>
-				</div>
-				<!-- <i class="fas fa-address-card fa-2x"></i> -->
+				<p>All Copy Right Reserved</p>
 			</div>
-		</div>
+		 <!-- End Footer -->
 	</body>
 </html>

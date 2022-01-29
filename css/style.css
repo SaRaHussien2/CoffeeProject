@@ -1,6 +1,7 @@
 /* Start Variables */
 :root {
-	--main-color: #a5492a;
+	/*	--main-color: #a5492a; */
+	--main-color:#cd5229;
 	--secondary-color: #c96645;
 	--white-color: #ffffff;
 	--transparent-color: rgb(15 116 143 / 70%);
@@ -62,7 +63,7 @@ span {
 }
 /* Start Header */
 .header {
-  background-color:var(--secondary-color);
+  background-color:var(--main-color);
 }
 .header .container {
   display: flex;
@@ -149,23 +150,28 @@ span {
 
 /* End HomePage */
 .home .welcome{
-	height:500px;
+	height:700px;
 	background-color:#1f2021; 
 	position:relative;
-	background-image:url('../images/home/home-img.jpeg');
-	background-size:cover;	  
+	/*	background-image:url('../images/home/home-img.jpeg'); */
+	background-image:url('../images/home/home1.jpg'); 
+	background-size:cover;	
 }
 
+/*
 .home .welcome .overlay {
-	background-color: rgba(250,250,250,.1);
+	background-color: rgba(0,0,0,1);
+
+  //background-color: rgba(250,250,250,.1); 
 	position :absolute;
 	color:var(--white-color);
     width: 350px;
-    height: 120px;
-    left: 100px;
-    top: 170px;
+    height: 95px;
+    left: 60px;
+    top: 270px;
 	opacity:0.5;
 }
+*/
 
 .home .welcome .overlay p {
 	color:var(--white-color);
@@ -173,42 +179,51 @@ span {
 }
 
 /* Start About Us*/
-.home .about {
-	padding:50px 0;
-	background-color: hsla(240, 11%, 95%, 0.856);
-	width:100%;
-	text-align:center;
+.home .about .container{
+	padding: 50px 0;
+    display: flex;
+	position:relative;
+}
+.home .about .container .info-box{
+	flex: 1;	
+}
+.home .about .container .info-box h2{
+	font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 2rem;
+    color: var(--main-color);
+	margin-bottom:40px;
 }
 
-.home .about h2{
-	position: relative;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.home .about h2:before{
+.home .about .container .info-box h2:before{
 	position: absolute;
-    top: 35px;
-    left: calc(50% - 50px);
+    top: 95px;
+    left: 40px;
     content: '';
     width: 100px;
     height: 2px;
     background-color: #9e9696;
 }
 
-.home .about h2:after{
+.home .about .container .info-box h2:after{
     position: absolute;
-    top: 35px;
-    left: calc(50% - 25px);
+    top: 95px;
+    left: 60px;
     content: '';
     width: 50px;
     height: 4px;
     background-color: var(--main-color);
 }
 	
-.home .about p{
-	font-size:18px;
-	color:#111;
+.home .about .container .info-box p{
+	line-height: 1.8;
+    width: 95%;
+    font-size: 18px;
+    color: #767676;
+	
+}
+.home .about .container .image-box {
+	flex:1;
 }
 /* End About Us*/
 /* End HomePage */
