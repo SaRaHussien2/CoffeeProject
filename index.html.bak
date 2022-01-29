@@ -27,7 +27,7 @@
 			  <i class="fas fa-bars toggle-menu"></i>
 			  <ul>
 				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="index.html#about">About</a></li>
+				<li><a href="#about">About</a></li>
 				<li><a href="products.html">Products</a></li>
 				<li><a href="#">Blogs</a></li>
 				<li><a href="#history">History</a></li>
@@ -64,7 +64,6 @@
 
 				</div>
 				<!--End About -->
-			
 
 				<!--Start History-->
 				<div id = "history">
@@ -80,7 +79,31 @@
 				</div>
 				<!--End History-->
 
-			
+			<!--Start Types-->
+				<div id ="types">
+					<div class="overlay">
+						<div class="container">
+							<h2>Types</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
+							<table>
+								<tr>
+									<td><img src="./images/home/type1.jpg" alt="About Us Image"></td>
+									<td><img src="./images/home/type2.jpg" alt="About Us Image"></td>
+									<td><img src="./images/home/type3.jpg" alt="About Us Image"></td>
+								</tr>
+								<tr>
+									<td><img src="./images/home/type4.jpg" alt="About Us Image"></td>
+									<td><img src="./images/home/type5.jpg" alt="About Us Image"></td>
+									<td><img src="./images/home/type6.jpeg" alt="About Us Image"></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				</div>
+			<!--End History-->
+				
 		 <!-- Start Footer -->
 			<div class="footer">
 				<p>All Copy Right Reserved</p>
