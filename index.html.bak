@@ -49,6 +49,8 @@
 			<div class="home">
 				 <!-- Start Welcome -->
 				<div class="welcome">
+						<img src="./images/home/home.jpg" alt="About Us Image">
+
 					<div class="overlay">
 						<p>Welcome in your favourite place</p>
 					</div>
@@ -65,7 +67,7 @@
 						<div class="image-box">
 							<img src="./images/home/about.jpg" alt="About Us Image">
 						</div>
-					<div>
+					</div>
 
 				</div>
 				<!--End About -->
