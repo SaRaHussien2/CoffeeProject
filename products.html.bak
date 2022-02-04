@@ -135,7 +135,7 @@
 				<!-- Start product Item --> 
 					<div class="product-item">
 						<div class="product_image">
-							<img src="images/products/product6.png" alt="Logo" />
+							<img src="images/products/product6.jpg" alt="Logo" />
 						</div>
 						<div class="product_details">
 							<h3 class="product_name">Hotel 2</h3>

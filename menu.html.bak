@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Coffee</title>
+		<!-- Favicons -->
+		<link href="images/favicon.png" rel="icon">
+		<!-- Render Elements Normaly in All Browsers -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- Font Awesome Library -->
+		<link rel="stylesheet" href="css/all.min.css">
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+			<base target="menulist">
+	</head>
+	<body>
+		<!-- Start Category Box -->
+			<div class="category_box">
+				<a href="category1.html">
+					<div class="category_img">
+						<img src="./images/category/category1.png" alt="category one ">
+					</div>
+					<div class="category_description">
+						<h3>Coffee</h3>
+					</div>
+				</a>
+			</div>
+		<!-- End Category Box -->
+		<!-- Start Category Box -->
+			<div class="category_box">
+				<a href="category2.html">
+					<div class="category_img">
+						<img src="./images/category/category2.png" alt="category two ">
+					</div>
+					<div class="category_description">
+						<h3>Matcha</h3>
+					</div>
+				</a>
+			</div>
+		<!-- End Category Box -->
+		<!-- Start Category Box -->
+			<div class="category_box">
+				<a href="category3.html">
+					<div class="category_img">
+						<img src="./images/category/category3.png" alt="category three ">
+					</div>
+					<div class="category_description">
+						<h3>Ice Coffee</h3>
+					</div>
+				</a>
+			</div>
+		<!-- End Category Box -->
+	</body>
+</html>

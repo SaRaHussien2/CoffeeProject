@@ -43,38 +43,40 @@
 			</div>
 		</div>
 	    <!-- End Header -->
-		
-		<!-- Start Main Body -->
-			<div class="history">
-				<div class="container">
-					<div class="history-info">
-						<h2>Whole History</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
-						<br>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
-						<br>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
-						<br>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
-						<br>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
-					</div>
-					<div class="history-image">
-						<img src="./images/home/history.jfif" alt="History Image">
-					</div>
+		<!-- start reg form-->
+			<div class="regform">
+				<div class="main">
+					<h1>Registration</h1>
+					<form id="reg_form" method="post" action="index.html">
+						 <div id="name">
+						   <input class="firstname" type="text" name="first_name" placeholder="First Name" pattern="[A-Za-z]{3,10}$" minlength="3" maxlength="10" required autofocus title="you must enter characters only" >
+						   <input class="lastname" type="text" name="last_name" placeholder="Last Name" pattern="[A-Za-z]{3,10}$" minlength="3" maxlength="10" required>
+						 </div>
+						 <div class="email">
+							<input  class="email_input" type="email" name="email" placeholder="Email" required>
+						 </div>
+						<div class="phone">
+							<input class="phone_input" type="phone" name="phone" placeholder="Phone Number" pattern="{3,10}$" minlength="10" maxlength="12" required >
+						</div>
+						<div id="pass">
+							<input class="password" type="password" name="password" placeholder="Password" required>
+							<input class="confirmpassword" type="password" name="confirm-password" placeholder="Confirm Password" required>
+						</div>
+						<div class="gender">
+							<label>Gender : </label>
+							<input type="radio" name="gender" value="Male" required /> Male  
+							<input type="radio" name="gender" value="Female"/> Female 
+							<br> 
+						</div>
+						 <input class="reg_submit" type="submit" value="Submit"/>
+					</form>
 				</div>
 			</div>
-		<!--End History-->
-
-			
-		 <!-- Start Footer -->
+		<!-- end reg form-->
+		<!-- Start Footer -->
 			<div class="footer">
 				<p>All Copy Right Reserved</p>
 			</div>
 		 <!-- End Footer -->
-	</body>
+  </body>
 </html>
