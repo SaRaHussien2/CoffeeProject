@@ -1,0 +1,49 @@
+
+<frameset rows="12.2%,*">
+<frame src="header.html"> 
+	 <frameset  rows="86.7%,*" >
+		<frameset cols="20%,*">
+		<frameset rows="*,*,*">
+			<frame src="product1.html"> 
+			<frame src="header.html"> 	
+			<frame src="header.html"> 	
+
+		</frameset>
+			<frame src="footer.html"> 
+	 </frameset> 
+		<frame src="footer.html"> 
+	 </frameset>
+
+</frameset>
+
+
+<!--
+<frameset rows="12.2%,*"> 
+	<frame src="header.html"> 
+		<frameset  rows="86.7%,*" >
+			<frameset cols="20%,*">
+				<frame>
+				<frameset rows="20%,*">
+					<frame src="menu.html">
+
+				</frameset>
+			</frame>
+				<frame src="menu.html">
+				<frame name="menulist" src="afterstyling.html"></frame>
+			</frameset>
+				<frame src="footer.html"></frame>
+		</frameset>
+</frameset>
+-->
+
+
+
+<!--<frameset rows="150px,*"> 
+	<frame noresize src="frame_1.html">
+	 <frameset cols="20%,*,20%"> 
+	 <frame src="frame_2.html">
+	 <frame src="frame_3.html">
+	 <frame src="frame_4.html"> 
+	 </frameset>
+</frameset> -->
+

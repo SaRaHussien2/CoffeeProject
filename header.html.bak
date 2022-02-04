@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Coffee</title>
+		<!-- Favicons -->
+		<link href="images/favicon.png" rel="icon">
+		<!-- Render Elements Normaly in All Browsers -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- Font Awesome Library -->
+		<link rel="stylesheet" href="css/all.min.css">
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	
+	    <!-- Start Header -->
+	    <div class ="header">
+			<div class="container">
+			<a href="index.html" class="logo">
+			  <img src="images/logo.png" alt="Logo" />
+			</a>
+			<div class="nav">
+			  <i class="fas fa-bars toggle-menu"></i>
+			  <ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="#">Blogs</a></li>
+				<li><a href="#history">History</a></li>
+				<li><a href="gallery.html" target="_blank">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="login.html">Login</a></li>
+
+			  </ul>
+			  <div class="form">
+				<i id="search" class="fas fa-search"></i>
+				<a href="card.html"><i id="cart" class="fas fa-shopping-cart"></i></a>
+			  </div>
+			</div>
+			</div>
+		</div>
+	    <!-- End Header -->
+	</body>
+</html>
