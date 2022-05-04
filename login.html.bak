@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Coffee</title>
+		<title>CoFFiaNo</title>
 		<!-- Favicons -->
 		<link href="images/favicon.png" rel="icon">
 		<!-- Render Elements Normaly in All Browsers -->
@@ -14,7 +14,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 	</head>
-	<body>
+	<body id="login">
 	
 	    <!-- Start Header -->
 	    <div class ="header">
@@ -25,14 +25,14 @@
 			<div class="nav">
 			  <i class="fas fa-bars toggle-menu"></i>
 			  <ul>
-				<li><a class="active" href="index.html">Home</a></li>
+				<li ><a href="index.html">Home</a></li>
 				<li><a href="index.html#about">About</a></li>
-				<li><a href="products.html">Products</a></li>
-				<li><a href="#">Blogs</a></li>
 				<li><a href="index.html#history">History</a></li>
+				<li ><a href="products.html">Products</a></li>
+				<li ><a href="blogs.html">Blogs</a></li>
 				<li><a href="gallery.html" target="_blank">Gallery</a></li>
 				<li><a href="contact.html">Contact</a></li>
-				<li><a href="login.html">Login</a></li>
+				<li class="login"><a href="login.html">Login</a></li>
 
 			  </ul>
 			  <div class="form">
@@ -53,7 +53,7 @@
 						<input class="login-email" type="email" name="email" placeholder="Email" required>
 					 </div>
 					 <div>
-						<input class="login-password" type="password" name="password" pattern=".{8,}"  placeholder="Password" required>
+						<input class="login-password" type="password" name="password" pattern=".{8,}" title="password not less than 8 numbers" placeholder="Password" required>
 					 </div>
 					 <div>
 						<button class="login_submit" type="submit">Login</button>

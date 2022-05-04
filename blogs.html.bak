@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>CoFFiaNo</title>
+		<!-- Favicons -->
+		<link href="images/favicon.png" rel="icon">
+		<!-- Render Elements Normaly in All Browsers -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- Font Awesome Library -->
+		<link rel="stylesheet" href="css/all.min.css">
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body id="blogs">
+	
+	    <!-- Start Header -->
+	    <div class ="header">
+			<div class="container">
+			<a href="index.html" class="logo">
+			  <img src="images/logo.png" alt="Logo" />
+			</a>
+			<div class="nav">
+			  <i class="fas fa-bars toggle-menu"></i>
+			  <ul>
+				<li class="index"><a href="index.html">Home</a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#history">History</a></li>
+				<li class="products"><a href="products.html">Products</a></li>
+				<li class="blogs"><a href="blogs.html">Blogs</a></li>
+				<li class="gallery"><a href="gallery.html" target="_blank">Gallery</a></li>
+				<li class="contact"><a href="contact.html">Contact</a></li>
+				<li class="login"><a href="login.html">Login</a></li>
+
+			  </ul>
+			  <div class="form">
+				<i id="search" class="fas fa-search"></i>
+				<a href="card.html"><i id="cart" class="fas fa-shopping-cart"></i></a>
+			  </div>
+			</div>
+			</div>
+		</div>
+	    <!-- End Header -->
+		
+		<!-- Start Main Body -->
+		<div class="blogs_introduction"><a id="top"></a></div>
+		
+
+		<div class="blogs_section">
+			<div class="container">
+				<h2>Our Blogs</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+					fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+					voluptate vero eveniet iusto aliquid.</p>
+				<!-- Start Blog Item --> 
+				<div class="blog_item">
+					<div class="blog_image"> 
+						 <img src="images/blogs/first_blog.jpg" alt="first blog" />
+					</div>
+					<div class="blog_description">
+						<h3>You will always find your favourite coffee</h3>
+						<h5>posted on 20 Jan,2022</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+						fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+						voluptate vero eveniet iusto aliquid.</p>
+						<a href="#">Read More...</a>
+					</div>
+				</div>
+				<!-- End Blog Item-->
+				<!-- Start Blog Item --> 
+				<div class="blog_item">
+					<div class="blog_image"> 
+						 <img src="images/blogs/second_blog.jpg" alt="Second blog" />
+					</div>
+					<div class="blog_description">
+						<h3>Different late flavour</h3>
+						<h5>posted on 20 Dec,2021</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+						fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+						voluptate vero eveniet iusto aliquid.</p>
+						<a href="#">Read More...</a>
+					</div>
+				</div>
+				<!-- End Blog Item-->
+				<!-- Start Blog Item --> 
+				<div class="blog_item">
+					<div class="blog_image"> 
+						 <img src="images/blogs/third_blog.jpg" alt="Good American coffee" />
+					</div>
+					<div class="blog_description">
+						<h3>Good American coffee</h3>
+						<h5>posted on 20 Jan,2021</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+						fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+						voluptate vero eveniet iusto aliquid.</p>
+						<a href="#">Read More...</a>
+
+					</div>
+				</div>
+				<!-- End Blog Item-->
+				<!-- Start Blog Item --> 
+				<div class="blog_item">
+					<div class="blog_image"> 
+						 <img src="images/blogs/fourth_blog.jpg" alt="Friends and coffee" />
+					</div>
+					<div class="blog_description">
+						<h3>Friends and coffee</h3>
+						<h5>posted on 20 Aug,2021</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+						fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+						voluptate vero eveniet iusto aliquid.</p>
+						<a href="#">Read More...</a>
+
+					</div>
+				</div>
+				<!-- End Blog Item-->
+				<!-- Start Blog Item --> 
+				<div class="blog_item">
+					<div class="blog_image"> 
+						 <img src="images/blogs/fifth_blog.jpg" alt="Vanilla late" />
+					</div>
+					<div class="blog_description">
+						<h3>Vanilla late</h3>
+						<h5>posted on 25 June,2020</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit,
+						fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro 
+						voluptate vero eveniet iusto aliquid.</p>
+						<a href="#">Read More...</a>
+
+					</div>
+				</div>
+				<!-- End Blog Item-->
+			</div>
+		</div>	
+		<!-- Start Back To Top -->
+			<div class="back_to_top"> 
+				<a href="#top">
+					<i class="fas fa-arrow-up"></i>
+				</a>
+			</div>
+		<!-- End Back To Top -->
+
+		 <!-- Start Footer -->
+			<div class="footer">
+				<p>All Copy Right Reserved</p>
+			</div>
+		 <!-- End Footer -->
+	</body>
+</html>
