@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Coffee</title>
+		<title>CoFFiaNo</title>
 		<!-- Favicons -->
 		<link href="images/favicon.png" rel="icon">
 		<!-- Render Elements Normaly in All Browsers -->
@@ -14,8 +14,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 	</head>
-	<body>
-	
+	<body id="products">
+		<a id="top"></a>
+
 	    <!-- Start Header -->
 	    <div class ="header">
 			<div class="container">
@@ -25,14 +26,14 @@
 			<div class="nav">
 			  <i class="fas fa-bars toggle-menu"></i>
 			  <ul>
-				<li><a class="active" href="index.html">Home</a></li>
+				<li class="index"><a href="index.html">Home</a></li>
 				<li><a href="index.html#about">About</a></li>
-				<li><a href="products.html">Products</a></li>
-				<li><a href="#">Blogs</a></li>
 				<li><a href="index.html#history">History</a></li>
-				<li><a href="gallery.html" target="_blank">Gallery</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="login.html">Login</a></li>
+				<li class="products"><a href="products.html">Products</a></li>
+				<li class="Blogs"><a href="blogs.html">Blogs</a></li>
+				<li class="gallery"><a href="gallery.html" target="_blank">Gallery</a></li>
+				<li class="contact"><a href="contact.html">Contact</a></li>
+				<li class="login"><a href="login.html">Login</a></li>
 
 			  </ul>
 			  <div class="form">
@@ -135,7 +136,7 @@
 				<!-- Start product Item --> 
 					<div class="product-item">
 						<div class="product_image">
-							<img src="images/products/product6.jpg" alt="Logo" />
+							<img src="images/products/product6.png" alt="Logo" />
 						</div>
 						<div class="product_details">
 							<h3 class="product_name">Hotel 2</h3>

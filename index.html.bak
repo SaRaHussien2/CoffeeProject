@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Coffee</title>
+		<title>CoFFiaNo</title>
 		<!-- Favicons -->
 		<link href="images/favicon.png" rel="icon">
 		<!-- Render Elements Normaly in All Browsers -->
@@ -14,7 +14,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 	</head>
-	<body>
+	<body id="index">
 	
 	    <!-- Start Header -->
 	    <div class ="header">
@@ -25,14 +25,14 @@
 			<div class="nav">
 			  <i class="fas fa-bars toggle-menu"></i>
 			  <ul>
-				<li><a class="active" href="index.html">Home</a></li>
+				<li class="index"><a href="index.html">Home</a></li>
 				<li><a href="index.html#about">About</a></li>
-				<li><a href="products.html">Products</a></li>
-				<li><a href="#">Blogs</a></li>
 				<li><a href="index.html#history">History</a></li>
-				<li><a href="gallery.html" target="_blank">Gallery</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="login.html">Login</a></li>
+				<li class="products"><a href="products.html">Products</a></li>
+				<li class="Blogs"><a href="blogs.html">Blogs</a></li>
+				<li class="gallery"><a href="gallery.html" target="_blank">Gallery</a></li>
+				<li class="contact"><a href="contact.html">Contact</a></li>
+				<li class="login"><a href="login.html">Login</a></li>
 
 			  </ul>
 			  <div class="form">
@@ -48,6 +48,10 @@
 			<div class="home">
 				 <!-- Start Welcome -->
 				<div class="welcome">
+					<div class="overlay">
+						<h3>Welcome in
+							<span class="cafe_name">CoFFiaNo</span> Store,, have a nice journey *_*</h3>
+					</div>
 				</div>
 				<!--End  Welcome -->
 				
@@ -67,7 +71,7 @@
 				<!--End About -->
 
 				<!--Start History-->
-				<div id = "history">
+				<div id = "history_section">
 					<div class="overlay">
 						<div class="container">
 							<h2>History</h2>
@@ -84,7 +88,7 @@
 				<div id ="types">
 					<div class="overlay">
 						<div class="container">
-							<h2>Types</h2>
+							<h2>Services</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta eius impedit, fugiat itaque, ab laudantium laboriosam hic at sed tempora molestiae similique maxime porro voluptate vero eveniet iusto aliquid.</p>
 							<table>
 								<tr>
